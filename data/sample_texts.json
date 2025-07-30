@@ -1,0 +1,53 @@
+{
+  "easy": [
+    "The quick brown fox jumps over the lazy dog.",
+    "Typing is fun and easy to learn.",
+    "Books are windows to new worlds and adventures.",
+    "Rainy days are perfect for a warm drink and a good story.",
+    "Life is better when you're laughing.",
+    "Sunshine brings joy to every corner of the day.",
+    "Smiles are contagious-share one today!",
+    "Birds sing sweet songs in the early morning light.",
+    "Kindness is a language everyone understands.",
+    "Learning new things keeps the mind sharp and happy.",
+    "The cat sat on the warm windowsill and purred.",
+    "Little steps every day can lead to big results.",
+    "A good friend is like a four-leaf clover-hard to find, lucky to have.",
+    "Clouds drift slowly across the blue sky.",
+    "Enjoy the simple things; they often mean the most."
+  ],
+  "medium": [
+    "Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.",
+    "The road to success and the road to failure are almost exactly the same.",
+    "Discipline is choosing between what you want now and what you want most.",
+    "A ship in harbor is safe, but that is not what ships are built for.",
+    "Opportunities are usually disguised as hard work, so most people don't recognize them.",
+    "Courage doesn't always roar. Sometimes it's the quiet voice at day's end saying, 'I will try again tomorrow.'",
+    "Even the darkest night will end, and the sun will rise.",
+    "Dreams don't work unless you do.",
+    "It always seems impossible until it's done.",
+    "You don't have to see the whole staircase, just take the first step.",
+    "Success is the sum of small efforts repeated day in and day out.",
+    "Don't watch the clock; do what it does-keep going.",
+    "Growth begins at the edge of your comfort zone.",
+    "The only limit to our realization of tomorrow is our doubts of today.",
+    "When you feel like quitting, remember why you started."
+  ],
+  "hard": [
+    "Complexity is your enemy. Any fool can make something complicated. It is hard to keep things simple.",
+    "In programming, the hard part isn't solving problems, but deciding what problems to solve.",
+    "While the pursuit of perfection may be admirable, it often proves paralyzing when one fears imperfection.",
+    "Technological progress has merely provided us with more efficient means for going backwards, unless guided by ethical foresight.",
+    "Though he spoke in riddles and wrapped his meaning in metaphor, the essence of his warning echoed with unnerving clarity-one must never trade long-term wisdom for fleeting validation.",
+    "A well-formed argument relies not only on logic but also on a nuanced understanding of opposing perspectives, however uncomfortable they may be.",
+    "The subtle interplay between ambition and humility defines not only personal success but also long-term fulfillment.",
+    "In a world saturated with information, the ability to discern relevance becomes a more powerful skill than simply knowing facts.",
+    "Her statements, though laced with irony and subtle exaggeration, unveiled a reality more honest than blunt truths ever could.",
+    "Efficiency without empathy results in systems that function but do not serve.",
+    "Existence itself is not inherently meaningful, yet the act of seeking meaning gives structure to our consciousness.",
+    "Language, in its infinite complexity, allows us not only to communicate but to shape the very thoughts we think.",
+    "The elegance of a solution is often found not in what it includes, but in what it intentionally omits.",
+    "When every choice feels significant, indecision becomes a decision in itself-often the most costly of all.",
+    "Philosophy begins in wonder, but if it ends in certainty, it has likely veered off course."
+  ]
+}
