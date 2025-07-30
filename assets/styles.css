@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #FF6B81;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.1em;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.2em;
+    color: #928DAB;
+    margin-bottom: 2em;
+}
+
+.edgy-text-centered {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    color: #f8f9fa;
+    text-shadow: 1px 1px #444;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cool-statement {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-top: 20px;
+}
+
+/* Button Styling (Consolidated) */
+.stButton button {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    border-image-slice: 1;
+    border-radius: 8px;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.stButton button:hover {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+/* Difficulty Buttons */
+.stButton button.difficulty-button {
+    background-color: #2a2a2a;
+    border: 2px solid #555;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+.stButton button.difficulty-button:hover {
+    background-color: #3a3a3a;
+    border-color: #FF6B81;
+    transform: none;
+    box-shadow: 0 0 8px rgba(255, 107, 129, 0.5);
+}
+
+.stButton button.difficulty-button.active {
+    background-color: #FF6B81;
+    border-color: #FF6B81;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 107, 129, 0.8);
+}
+
+input[type="text"], textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #3f51b5;
+    box-shadow: 0 0 5px rgba(63, 81, 181, 0.5);
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: #2c2f3f;
+    color: #ffffff;
+}
+
+/* Footer Styling (Consolidated & Adjusted) */
+.footer {
+    text-align: center;
+    color: #888;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* Media Query for smaller screens (tablets and phones) */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5em;
+    }
+
+    .tagline {
+        font-size: 1em;
+    }
+
+    .stButton button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 10px; /* Reduce the gap between stacked buttons */
+        padding: 0 20px; /* Add some padding to the sides */
+    }
+
+    .usage-section, .footer {
+        padding: 0 15px;
+    }
+}
