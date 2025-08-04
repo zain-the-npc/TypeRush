@@ -10,7 +10,7 @@ Most typing tools are either boring, clunky, or feel like homework.
 **TypeRush** brings the heat: quick rounds, slick UI, and instant stats to help you level up your typing game — without putting you to sleep.
 
 
-##More 
+## More 
 **Made from scratch. Runs smooth. Kinda proud of it, not gonna lie.**  
 Designed, developed, and shipped during the **Internship**, every part of TypeRush was built with intent: from logic to UI to user flow.
 
@@ -20,7 +20,7 @@ It’s not flawless — and that’s the point.
 **It’s real, raw, and evolving.**
 
 ## 👇🏻👇🏻
-###  Got feedback? Found a bug? Have an idea?
+##  Got feedback? Found a bug? Have an idea?
 **→ Spot a bug? Got ideas?**  
 **→ DM, ping, or yell across the internet — I’ll hear you.**  
 
