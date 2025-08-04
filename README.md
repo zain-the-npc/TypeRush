@@ -21,7 +21,7 @@ It’s not flawless — and that’s the point.
 
 ## 👇🏻👇🏻
 ###  Got feedback? Found a bug? Have an idea?
-**→ Spot a bug? Got ideas? **  
+**→ Spot a bug? Got ideas?**  
 **→ DM, ping, or yell across the internet — I’ll hear you.**  
 
 **Let’s make it better — or build what’s next.**
