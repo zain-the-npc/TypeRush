@@ -115,12 +115,11 @@ if st.session_state.original_text and not st.session_state.test_finished and not
 
     typed = st.text_input("start typing here ...", value=st.session_state.typed_text, key="typing_box")
     submitted = False
-    
+
+    # Keep typed_text in sync as the user types, but don't auto-submit on every keystroke
     if typed != st.session_state.last_input:
         st.session_state.typed_text = typed
         st.session_state.last_input = typed
-        if st.session_state.start_time is not None:
-            submitted = True
 
     if st.button("Submit"):
         st.session_state.typed_text = typed
