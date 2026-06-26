@@ -41,8 +41,11 @@ Pick a difficulty, type the passage shown, hit **Submit**, and see your stats.
 
 ## Screenshots 📸
 
-![TypeRush screenshot 1](screenshots/tr_ss_01.jpg)
 ![TypeRush screenshot 2](screenshots/tr_ss_02.png)
+
+--
+
+
 ![TypeRush screenshot 3](screenshots/tr_ss_03.png)
 
 ---
