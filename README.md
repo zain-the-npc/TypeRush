@@ -1,27 +1,48 @@
-#  TypeRush — Typing Speed Test App  
+# TypeRush ⌨️🔥
 
+**Think you're fast? Prove it.** TypeRush is a typing speed test that tracks your WPM, accuracy, and mistakes in real time — built with Streamlit, polished with Lottie animations.
 
-**Think you're fast? Prove it. TypeRush is where speed meets precision.**
+---
 
+## What it does ✨
 
-## 🧩 What’s the Point?
-Typing is something we all do — but how good are we *really*?  
-Most typing tools are either boring, clunky, or feel like homework.  
-**TypeRush** brings the heat: quick rounds, slick UI, and instant stats to help you level up your typing game — without putting you to sleep.
+- 🎯 **3 difficulty levels** — Easy, Medium, Hard, each with its own pool of passages
+- ⏱️ **Live countdown** — a 3-2-1 countdown before every test starts
+- 📊 **Instant results** — WPM, accuracy %, time taken, and mistake count the moment you submit
+- 🔴 **Mistake highlighting** — see exactly which characters you got wrong, color-coded
+- 🎬 **Lottie animations** — smooth, playful motion graphics instead of static screens
+- 🔁 **Restart anytime** — jump back to difficulty selection with one click
 
+## Tech stack 🛠️
 
-## More 
-**Made from scratch. Runs smooth. Kinda proud of it, not gonna lie.**  
-Designed, developed, and shipped during the **Internship**, every part of TypeRush was built with intent: from logic to UI to user flow.
+| Layer | Tech |
+|---|---|
+| App framework | Streamlit |
+| Animations | streamlit-lottie |
+| Styling | Custom CSS |
+| Logic | Pure Python (WPM, accuracy, mistake detection) |
 
+## Running it locally 🚀
 
-## ✨ Note ✨
-It’s not flawless — and that’s the point.  
-**It’s real, raw, and evolving.**
+```bash
+git clone https://github.com/zain-the-npc/TypeRush.git
+cd TypeRush
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-## 👇🏻👇🏻
-##  Got feedback? Found a bug? Have an idea?
-**→ Spot a bug? Got ideas?**  
-**→ DM, ping, or yell across the internet — I’ll hear you.**  
+Pick a difficulty, type the passage shown, hit **Submit**, and see your stats.
 
-**Let’s make it better — or build what’s next.**
+## How scoring works 🧮
+
+- **WPM** — typed characters ÷ 5, divided by elapsed time in minutes (the standard "average word length" convention)
+- **Accuracy** — percentage of characters that match the original text at the same position, counting anything you didn't finish typing as a mistake
+- **Mistakes** — total count of incorrect or missing characters
+
+## Screenshots 📸
+
+Check the `screenshots/` folder for a look at the app in action.
+
+---
+
+Designed and developed by Zain.
